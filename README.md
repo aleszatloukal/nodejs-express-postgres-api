@@ -103,15 +103,15 @@ Press CTRL + C to stop the process.
 
 ### Creating new models
 
-If you need to add more models to the project just create a new file in `/models/` and use them in the controllers.
+If you need to add more models to the project just create a new file in `/app/models/` and use them in the controllers.
 
 ### Creating new routes
 
-If you need to add more routes to the project just create a new file in `/routes/` and add it in `/routes/api.js` it will be loaded dynamically.
+If you need to add more routes to the project just create a new file in `/app/routes/` and add it in `/app/routes/api.js` it will be loaded dynamically.
 
 ### Creating new controllers
 
-If you need to add more controllers to the project just create a new file in `/controllers/` and use them in the routes.
+If you need to add more controllers to the project just create a new file in `/app/controllers/` and use them in the routes.
 
 ## Tests
 
@@ -125,7 +125,7 @@ You can set custom command for test at `package.json` file inside `scripts` prop
 
 ### Creating new tests
 
-If you need to add more test cases to the project just create a new file in `/controllers/__test__/` and run the command.
+If you need to add more test cases to the project just create a new file in `/app/controllers/__test__/` and run the command.
 
 ## ESLint
 
